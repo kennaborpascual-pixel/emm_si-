@@ -13,7 +13,7 @@ body
     text-align: center;
 }
 #gif_curry
-{
+{   
     width: 200px;
     margin-bottom: 20px;
 }
@@ -60,4 +60,41 @@ button
 #btn_Nunca
 {
     background-color: red;
+}
+
+/* Esto ajusta el contenedor principal */
+.container {
+    width: 90%; /* Ocupa casi todo el ancho en el celular */
+    max-width: 400px; /* Pero no se estira de más en PC */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ajusta la imagen (como la de Curry) para que no se salga */
+#gif_curry {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajusta el tamaño del texto de la pregunta */
+h1#pregunta {
+    font-size: 1.5rem; /* Tamaño más cómodo para leer en móvil */
+    text-align: center;
+}
+
+/* Ajusta los botones para que sean fáciles de presionar con el dedo */
+.btns {
+    display: flex;
+    flex-direction: column; /* Pone los botones uno debajo de otro en móvil */
+    gap: 10px;
+}
+
+button {
+    width: 100%; /* Botones anchos para que sea fácil picarles */
+    padding: 15px;
+    font-size: 1.2rem;
+}
+audio {
+    width: 100%; /* Para que el reproductor ocupe el ancho del celular */
+    max-width: 300px;
 }
