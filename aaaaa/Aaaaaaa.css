@@ -1,0 +1,63 @@
+body
+{
+    background-color: #a0acb2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container
+{
+    text-align: center;
+}
+#gif_curry
+{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    color: #d81b60;
+}
+.btns
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+button
+{
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+#btn_si
+{
+    background-color: #4caf50;
+    color: white;
+}
+#btn_No
+{
+    background-color: #f44336;
+}
+#btn_Talvez
+{
+    background-color: pink;
+}
+#btn_Jamas
+{
+    background-color: red;
+
+}
+#btn_Nunca
+{
+    background-color: red;
+}
